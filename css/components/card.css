@@ -1,0 +1,29 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 32px;
+}
+
+.card{
+  background-color: white;
+  width: 25%;
+  height: 400px;
+}
+
+.card img {
+  margin: 32px;
+  height: 200px;
+  width: 80%;
+  object-fit: cover;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card p {
+  padding: 0 8px;
+  margin-bottom: 32px;
+}
